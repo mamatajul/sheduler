@@ -1,0 +1,134 @@
+html {
+  min-height: 1000px;
+  min-width: 450px;
+  font-family: Ubuntu;
+}
+
+body {
+  background: -webkit-radial-gradient(circle closest-side at 50px 50px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 40px 60px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 60px 60px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 50px 70px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 150px 165px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 140px 175px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 160px 175px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 150px 185px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(ellipse closest-side at 50px 60px, #f9a734 18px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(ellipse closest-side at 150px 175px, #f9a734 18px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 30px 40px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 40px 35px, #36964c 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 70px 40px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 60px 35px, #286e38 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 130px 155px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(circle closest-side at 140px 150px, #36964c 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(170px 155px circle, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), -webkit-radial-gradient(160px 150px circle, #286e38 15px, rgba(0, 0, 0, 0) 0%);
+  background: radial-gradient(circle closest-side at 50px 50px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 40px 60px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 60px 60px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 50px 70px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 150px 165px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 140px 175px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 160px 175px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 150px 185px, #fb8b24 3px, rgba(0, 0, 0, 0) 0%), radial-gradient(ellipse closest-side at 50px 60px, #f9a734 18px, rgba(0, 0, 0, 0) 0%), radial-gradient(ellipse closest-side at 150px 175px, #f9a734 18px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 30px 40px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 40px 35px, #36964c 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 70px 40px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 60px 35px, #286e38 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 130px 155px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle closest-side at 140px 150px, #36964c 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle at 170px 155px, #f9d8d4 15px, rgba(0, 0, 0, 0) 0%), radial-gradient(circle at 160px 150px, #286e38 15px, rgba(0, 0, 0, 0) 0%);
+  background-color: #F9D8D4;
+  background-size: 180px 210px;
+  -webkit-animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+  animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+}
+/* Animation */
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 50%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 50%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #e23e57;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #ff847c;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 60%;
+  border-color: transparent;
+  background-color: #e23e57;
+  color: #fff;
+  font-size: 30px;
+  /* padding-bottom: 1px; */
+  /* padding-top: 2px; */
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #ff847c;
+}
+
+::placeholder {
+  color: grey;
+  opacity: .5;
+}
+
+footer {
+  color: Black;
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .box {
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+}
